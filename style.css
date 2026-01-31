@@ -54,7 +54,7 @@ body {
     line-height: 25px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    
 }
 .round-center {
     text-align: center;
@@ -138,7 +138,7 @@ body{
 @media screen and (max-width:450px) {
     .f-container {
         flex-direction: column;
-       margin: 8px;
+       margin: 1px;
 
     }
     .result{
