@@ -18,11 +18,9 @@ body {
 
 .result {
     background-color: #4639F0;
-    padding: 15px;
     width: 100%;
     height: auto;
     border-radius: 25px;
-
 }
 .num{
     color: rgb(155, 152, 152);
@@ -46,7 +44,7 @@ body {
 .round {
     display: inline-block;
     background-color: #5635E2;
-    border-radius: 59px;
+    border-radius: 100%;
     padding: 35px;
     color:  rgb(155, 152, 152);
 }
@@ -61,11 +59,14 @@ body {
     border-radius: 10px;
 }
 
+.section {
+    padding: 40px;
+}
+
 .summary {
     
     width: 100%;
     height: auto;
-    padding: 10px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
