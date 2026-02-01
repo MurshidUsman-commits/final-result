@@ -21,10 +21,9 @@ body {
     width: 100%;
     height: auto;
     border-radius: 25px;
+    align-items: center;
 }
-.num{
-    color: rgb(155, 152, 152);
-}
+
 .title{
     color: black;
     padding: 10px;
@@ -39,21 +38,32 @@ body {
 .result-txt{
     text-align: center;
     margin: 10px;
-    color: rgb(155, 152, 152);
 }
 .round {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    aspect-ratio: 1/1;
+    width: auto;
     background-color: #5635E2;
     border-radius: 100%;
     padding: 35px;
-    color:  rgb(155, 152, 152);
-}
+
+    }
 .box{
     line-height: 25px;
     display: flex;
     flex-direction: column;
     
 }
+
+.secondary-text {
+    color: rgb(155, 152, 152)
+}
+.center-text {
+    text-align: center;
+}
+
 .round-center {
     text-align: center;
     border-radius: 10px;
@@ -61,6 +71,9 @@ body {
 
 .section {
     padding: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
 }
 
 .summary {
