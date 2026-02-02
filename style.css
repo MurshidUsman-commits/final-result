@@ -17,7 +17,7 @@ body {
 }
 
 .result {
-    background-color: #4639F0;
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
     width: 100%;
     height: auto;
     border-radius: 25px;
@@ -48,7 +48,7 @@ body {
     align-items: center;
     aspect-ratio: 1/1;
     width: auto;
-    background-color: #5635E2;
+    background-image: linear-gradient( hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
     border-radius: 100%;
     padding: 35px;
 
@@ -113,7 +113,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 11px;
-    border-radius: 10px;
+    border-radius: 11px;
     /* doubt */
     font-size: 20px;   
 }
@@ -161,15 +161,31 @@ body {
     .f-container {
         flex-direction: column;
         margin: 1px;
-
     }
-
+    .summary{
+        margin: 2px;
+    }
     .result {
         border-radius: 0 0 25px 25px;
     }
-
+    .section{
+        padding: 25px;
+    }
+    .sec-4{
+        font-size: 16px;
+    }
+    .title{
+        font-size: 23px;
+    }
 }
-
+@media screen and (min-width:763px) {
+    .sec-4{
+        font-size: 19px;
+    }
+    .title{
+        font-size: 22px;
+    }
+}
 @media screen and (min-width:1000px) {
     .f-container {
         max-width: 850px;
