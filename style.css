@@ -24,21 +24,24 @@ body {
     align-items: center;
 }
 
-.title{
+.title {
     color: black;
     padding: 10px;
     font-weight: bold;
 }
+
 .large {
     font-size: 30px;
     display: block;
     color: white;
     font-weight: bold;
 }
-.result-txt{
+
+.result-txt {
     text-align: center;
     margin: 10px;
 }
+
 .round {
     display: flex;
     flex-direction: column;
@@ -49,16 +52,28 @@ body {
     border-radius: 100%;
     padding: 35px;
 
-    }
-.box{
+}
+
+.box {
+    /* doubt */
     line-height: 25px;
     display: flex;
     flex-direction: column;
-    
+    gap: 29px;
+    font-size: 20px ;
 }
-
+.t1{
+    display: flex;
+    gap: 8px;
+}
+.secondary-text2 {
+    color: rgb(190, 185, 185)
+}
 .secondary-text {
     color: rgb(155, 152, 152)
+}
+.hun{
+    font-size: 20px;
 }
 .center-text {
     text-align: center;
@@ -83,111 +98,114 @@ body {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
-
-.reaction {
-    background-color: rgb(252, 230, 230);
-    border-radius: 10px;
+.great{
+    color: white;
+    font-size: 37px;
+}
+.sec-4{
+    font-size: 25px;
+}
+.sec-1{
+    font-size: 26px;
+}
+.common-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 11px;
-    margin: 10px;
-    color: rgb(243, 62, 62);
-    
+    border-radius: 10px;
+    /* doubt */
+    font-size: 20px;   
+}
+.size{
+    font-size: 19px;
+}
+
+.reaction {
+    background-color: rgb(253, 239, 239);
+    color:hsl(0, 100%, 67%);
 }
 
 .Memory {
-    background-color: rgb(237, 253, 237);
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px;
-    margin: 10px;
-    color: rgb(207, 207, 32);
+    background-color: rgb(252, 252, 200);
+    color: hsl(39, 100%, 56%);
 }
 
 .Visual {
-    background-color: rgb(237, 253, 237);
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px;
-    margin: 10px;
-    color: rgb(84, 38, 248);
+    background-color: rgb(204, 204, 248);
+    color: hsl(234, 85%, 45%);
 }
 
 .Verbal {
-    background-color: rgb(237, 253, 237);
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px;
-    margin: 10px;
-    color:  rgb(115, 175, 115);
+    background-color: rgb(209, 250, 209);
+    color: hsl(166, 100%, 37%);
 }
-.btn{
+
+.btn {
     border: none;
     background-color: black;
     color: white;
     padding: 15px;
     width: 100%;
     height: auto;
-    border-radius: 17px;
-    margin: 10px;
+    border-radius: 29px;
 }
-.btn-div{
+.btn-div {
     text-align: center;
-    margin: 15px;
     padding: 10px;
 }
-*{
+* {
     box-sizing: border-box;
-}
-body{
-    overflow-x: hidden;
 }
 @media screen and (max-width:450px) {
     .f-container {
         flex-direction: column;
-       margin: 1px;
+        margin: 1px;
 
     }
-    .result{
+
+    .result {
         border-radius: 0 0 25px 25px;
     }
-   
+
 }
+
 @media screen and (min-width:1000px) {
-    .f-container{
+    .f-container {
         max-width: 850px;
     }
-    *{
+
+    * {
         font-size: 30px;
     }
-    .large{
+
+    .large {
         font-size: 60px;
     }
-    .round{
+
+    .round {
         font-size: 25px;
     }
 }
+
 @media screen and (min-width:2000px) {
-    .f-container{
+    .f-container {
         max-width: 1300px;
     }
-    *{
+
+    * {
         font-size: 50px;
     }
-    .large{
+
+    .large {
         font-size: 70px;
     }
-    .round{
+
+    .round {
         font-size: 30px;
     }
-    .great{
+
+    .great {
         font-size: 60px;
     }
 }
