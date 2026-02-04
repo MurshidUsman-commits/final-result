@@ -16,8 +16,15 @@ body {
     border-radius: 25px;
 }
 
+.sec-3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .result {
-    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     width: 100%;
     height: auto;
     border-radius: 25px;
@@ -48,33 +55,42 @@ body {
     align-items: center;
     aspect-ratio: 1/1;
     width: auto;
-    background-image: linear-gradient( hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     border-radius: 100%;
     padding: 35px;
 
 }
 
-.box {
+.skill-box {
     /* doubt */
     line-height: 25px;
     display: flex;
     flex-direction: column;
     gap: 29px;
-    font-size: 20px ;
+    font-size: 20px;
 }
-.t1{
+
+.common-box>div {
     display: flex;
     gap: 8px;
 }
+
+.txt-size {
+    font-size: 19px;
+}
+
 .secondary-text2 {
     color: rgb(190, 185, 185)
 }
+
 .secondary-text {
     color: rgb(155, 152, 152)
 }
-.hun{
+
+.hun {
     font-size: 20px;
 }
+
 .center-text {
     text-align: center;
 }
@@ -92,55 +108,51 @@ body {
 }
 
 .summary {
-    
+
     width: 100%;
     height: auto;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
-.great{
+
+.great {
     color: white;
     font-size: 37px;
 }
-.sec-4{
+
+.sec-4 {
     font-size: 25px;
 }
-.sec-1{
+
+.sec-1 {
     font-size: 26px;
 }
-.common-box {
+
+.skill-box > div {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 11px;
     border-radius: 11px;
     /* doubt */
-    font-size: 20px;   
+    font-size: 20px;
 }
-.size{
-    font-size: 19px;
-}
-
 .reaction {
     background-color: rgb(253, 239, 239);
-    color:hsl(0, 100%, 67%);
+    color: hsl(0, 100%, 67%);
 }
-
 .Memory {
     background-color: rgb(252, 252, 200);
     color: hsl(39, 100%, 56%);
 }
-
 .Visual {
     background-color: rgb(204, 204, 248);
     color: hsl(234, 85%, 45%);
 }
-
 .Verbal {
     background-color: rgb(209, 250, 209);
     color: hsl(166, 100%, 37%);
 }
-
 .btn {
     border: none;
     background-color: black;
@@ -149,6 +161,9 @@ body {
     width: 100%;
     height: auto;
     border-radius: 29px;
+}
+.btn:hover {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 .btn-div {
     text-align: center;
@@ -162,30 +177,44 @@ body {
         flex-direction: column;
         margin: 1px;
     }
-    .summary{
+
+    .summary {
         margin: 2px;
     }
+
     .result {
         border-radius: 0 0 25px 25px;
     }
-    .section{
+
+    .section {
         padding: 25px;
     }
-    .sec-4{
-        font-size: 16px;
+
+    .btn {
+        font-size: 20px;
     }
-    .title{
+
+
+    .sec-4 {
+        font-size: 16px;
+        max-width: 85%;
+    }
+
+    .title {
         font-size: 23px;
     }
 }
+
 @media screen and (min-width:763px) {
-    .sec-4{
-        font-size: 19px;
+    .sec-4 {
+        font-size: 22px;
     }
-    .title{
+
+    .title {
         font-size: 22px;
     }
 }
+
 @media screen and (min-width:1000px) {
     .f-container {
         max-width: 850px;
@@ -199,29 +228,11 @@ body {
         font-size: 60px;
     }
 
+    .btn {
+        font-size: 22px;
+    }
+
     .round {
         font-size: 25px;
-    }
-}
-
-@media screen and (min-width:2000px) {
-    .f-container {
-        max-width: 1300px;
-    }
-
-    * {
-        font-size: 50px;
-    }
-
-    .large {
-        font-size: 70px;
-    }
-
-    .round {
-        font-size: 30px;
-    }
-
-    .great {
-        font-size: 60px;
     }
 }
