@@ -141,15 +141,15 @@ body {
     background-color: rgb(253, 239, 239);
     color: hsl(0, 100%, 67%);
 }
-.Memory {
+.memory {
     background-color: rgb(252, 252, 200);
     color: hsl(39, 100%, 56%);
 }
-.Visual {
+.visual {
     background-color: rgb(204, 204, 248);
     color: hsl(234, 85%, 45%);
 }
-.Verbal {
+.verbal {
     background-color: rgb(209, 250, 209);
     color: hsl(166, 100%, 37%);
 }
